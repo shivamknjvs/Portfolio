@@ -1,0 +1,95 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #171717;
+    border-radius: 100px;
+    width: 80vw;
+    height: 50px;
+    margin-top: 1vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+.Logo h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.menus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menus ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.menus ul li,a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    width: 6vw;
+    color: white;
+
+}
+.a1:hover,.a2:hover, .a3:hover, .a4:hover{
+    background: #FD853A;
+    border-radius: 100px;
+    height: 40px;
+    width: 6vw;
+}
+
+.menubar, .menubar img{
+    width: 0px;
+    height: 0px;
+    display: none;
+}
+/*
+*/
+.social img{
+    width: 24px;
+}
+.social{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+} 
+
+@media only screen and (max-width: 400px) {
+.Logo h1{
+    font-size: 18px;
+}
+}
+@media only screen and (max-width: 600px) {
+    nav .menus, .social{
+        display: none;
+    }
+    .menubar, .menubar img{
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .menus ul{
+        gap: 2.5vw;
+        font-size: smaller;
+    }
+    .social{
+        gap: 1.2vw;
+    }
+}

@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.herosec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    /* width: 80vw; */
+    height: 85vh;
+    /* border: 2px solid orange; */
+    margin-top:5vh;
+}
+.content{
+    position: absolute  ;
+     margin-top: -66vh; 
+     z-index: -100;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.myna{
+    display: flex;
+    gap: 13px;
+    font-size: x-large;
+}
+.myna h1{
+    letter-spacing: 2px;
+}
+.Name{
+    color: #FD853A;
+    font-weight: 500;
+}
+.developer{
+    font-size: xx-large;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #0099ffd5;
+}
+
+.subtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    font-size: larger;
+}
+.threed{
+    display: flex;
+    justify-content: first baseline;
+    align-items: flex-end;
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid red; */
+    padding-top: 5vh;
+    
+}
+.threed .spline{
+    display: flex;
+    justify-content: first baseline;
+    align-items: flex-end;
+    overflow: hidden;
+    /* height: 90%; */
+    width: 100;
+    /* margin-top: 5vh; */
+    
+}
+
+@media only screen and (max-width:450px){
+    .herosec{
+        /* position: fixed; */
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        /* background: #000; */
+    }
+    .threed{
+        height: 100%;
+        width: 100vw;
+        /* height: 400px; */
+    }
+    .content{
+        /* position: static; */
+        margin-left: 0vw;
+        margin-top: -60vh; 
+        align-items: center;
+     }
+}
