@@ -1,3 +1,6 @@
+![Screenshot (7)](https://github.com/shivamknjvs/Portfolio/assets/99579623/6cfad5df-9fb2-4c1b-8204-4479d033dd54)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
